@@ -28,5 +28,10 @@ Code used to explore the association of transposable elements (TEs) with gene ex
 ### 1a) Download or acquire genomes of interest
 6 genomes were downloaded from public databases (NCBI); All genomes were downloaded using ```wget```, as recommended by NCBI (https://www.ncbi.nlm.nih.gov/genome/doc/ftpfaq/). See Supplementary Table 1 for the source and assembly version of each genome used.
 
-### 1b) Extract speicifc TE types that are recent insertions.
-Details can be found in TESeparation
+### 1b) Extract recent TE insertsions from each genome by using CARP
+Details can be seen in https://github.com/carp-te/carp-documentation
+
+### 1c) Separate TE into specific classes
+Code can be found in TESeparation
+
+## TO BE CONTINUED......
