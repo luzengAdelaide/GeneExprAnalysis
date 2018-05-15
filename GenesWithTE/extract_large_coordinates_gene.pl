@@ -1,7 +1,13 @@
 #!/usr/bin/perl -w
 use strict;
 
-# intersectbed (BEDTools) cannot handle coordinates that are larger than one billion, this code is used to minimise the size of coordinates that are larger than 500M.
+# intersectbed (BEDTools) cannot handle coordinates that are larger than one billion, 
+# the code is used to minimise the size of coordinates that are larger than 500M.
+
+=head1 SYNOPSIS
+    extract_large_coordinates_gene.pl <gene coordinates> 
+=cut
+
 my ($filename) = @ARGV;
 open(IN,"$filename");
 my $out1 = "small_".$filename;
