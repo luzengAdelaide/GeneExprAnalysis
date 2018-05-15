@@ -9,7 +9,7 @@ Code used to explore the association of transposable elements with gene expressi
 
 #### Data used
 - Genome (Downloaded from NCBI)
-- RNA-seq (Downloaded from NCBI)
+- RNA-seq (Downloaded from NCBI, Gene Expression Omnibus accession numbers GSE30352 and GSE97367, BioProject number PRJEB5206)
 - Ortholog (https://asia.ensembl.org/info/website/archives/index.html)
 
 #### Prerequisites
