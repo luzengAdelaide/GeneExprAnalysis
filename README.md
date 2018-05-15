@@ -4,8 +4,14 @@ Code used to explore the association of transposable elements (TEs) with gene ex
 
 #### Recommended programs
 - CARP (https://github.com/carp-te/carp-documentation)
+- SRA-Toolkit (https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/)
 - RSEM (https://deweylab.github.io/RSEM/)
 - BEDTools (http://bedtools.readthedocs.io/en/latest/)
+
+#### Optional
+- fastqc (https://www.bioinformatics.babraham.ac.uk/projects/download.html)
+- Trim_galore (https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
+- Bowtie2 (https://sourceforge.net/projects/bowtie-bio/files/bowtie2/)
 
 #### Data used
 - Genome (Downloaded from NCBI)
@@ -20,6 +26,7 @@ Code used to explore the association of transposable elements (TEs) with gene ex
 
 ### 1) Use CARP to annotate TEs in the anmiote genomes
 ### 1a) Download or acquire genomes of interest
-755 genomes were downloaded from public databases (NCBI); All genomes were downloaded using ```wget```, as recommended by NCBI (https://www.ncbi.nlm.nih.gov/genome/doc/ftpfaq/). See Supplementary Table 1 for the source and assembly version of each genome used.
+6 genomes were downloaded from public databases (NCBI); All genomes were downloaded using ```wget```, as recommended by NCBI (https://www.ncbi.nlm.nih.gov/genome/doc/ftpfaq/). See Supplementary Table 1 for the source and assembly version of each genome used.
 
-### 1b) Extract TEs that are recent insertions.
+### 1b) Extract speicifc TE types that are recent insertions.
+Details can be found in TESeparation
