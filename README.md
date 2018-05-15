@@ -31,7 +31,7 @@ Code used to explore the association of transposable elements (TEs) with gene ex
 ### 1b) Extract recent TE insertsions from each genome by using CARP
 Details can be seen in https://github.com/carp-te/carp-documentation
 
-### 1c) Separate TE into specific classes
+### 1c) Separate TEs into specific classes
 Code can be found in TESeparation
 
 ## TO BE CONTINUED......
