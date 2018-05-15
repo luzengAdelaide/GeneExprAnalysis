@@ -24,11 +24,11 @@ Code used to explore the association of transposable elements (TEs) with gene ex
 ## Workflow
 
 
-### 1) Use CARP to annotate TEs in the anmiote genomes
+### 1) Separate TEs into recent insertions or non-recent insertsion
 ### 1a) Download or acquire genomes of interest
 6 genomes were downloaded from public databases (NCBI); All genomes were downloaded using ```wget```, as recommended by NCBI (https://www.ncbi.nlm.nih.gov/genome/doc/ftpfaq/). See Supplementary Table 1 for the source and assembly version of each genome used.
 
-### 1b) Extract recent TE insertsions from each genome by using CARP
+### 1b) Use CARP to identify and annotate TEs in the genomes
 Details can be seen in https://github.com/carp-te/carp-documentation
 
 ### 1c) Separate TEs into specific classes
